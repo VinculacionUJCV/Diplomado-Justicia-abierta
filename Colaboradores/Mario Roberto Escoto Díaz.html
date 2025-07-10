@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -70,6 +69,24 @@
       border-radius: 10px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
+    .linkedin-buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .linkedin-buttons a {
+      background-color: #0077b5;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .linkedin-buttons a:hover {
+      background-color: #005983;
+    }
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
@@ -94,7 +111,22 @@
       <p><strong>Emitido por:</strong> Universidad José Cecilio del Valle</p>
       <p><strong>Firmantes:</strong><br>Julio César Raudales – Rector<br>Martha Mélida Morales – Vice Rectora Académica</p>
       <p><strong>Certificante:</strong><br>Sayra Vargas Gallegos – Secretaria General</p>
+
+      <div class="linkedin-buttons">
+        <!-- Botón para agregar certificación -->
+        <a href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Diplomado%20Justicia%20Abierta&organizationName=UJCV&issueYear=2025&issueMonth=7&certUrl=https%3A%2F%2Fvinculacionujcv.github.io%2FDiplomado-Justicia-abierta%2FColaboradores%2FMario%2520Roberto%2520Escoto%2520D%25C3%25ADaz.html"
+           target="_blank">
+          Agregar a mi perfil de LinkedIn
+        </a>
+
+        <!-- Botón para compartir como publicación -->
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fvinculacionujcv.github.io%2FDiplomado-Justicia-abierta%2FColaboradores%2FMario%2520Roberto%2520Escoto%2520D%25C3%25ADaz.html"
+           target="_blank">
+          Compartir en LinkedIn
+        </a>
+      </div>
     </div>
+
     <div class="diploma-section">
       <img src="colaboradoresimg/Mario Roberto Escoto Diaz.png" alt="Diploma Mario Roberto Escoto Díaz" />
     </div>
